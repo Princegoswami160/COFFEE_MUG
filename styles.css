@@ -1,0 +1,93 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 242, 224);
+    align-content: center;
+    justify-content: center;
+    object-fit: cover;
+    flex-direction: column;
+}
+.card-box{
+    height: 450px;
+    width: 830px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.img{
+    height: 450px;
+    width: 380px;
+    object-fit: cover;
+    border-radius: 20px 0px 0px 20px;
+}
+.coffee{
+    opacity: 70%;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 27px;
+    padding-top: 10px;
+}
+.text-area{
+    height: 450.8px;
+    width: 450px;
+    margin-left: 380px;
+    margin-top: -478px;
+    position:relative;
+    background-color: white;
+    border-radius: 0px 20px 20px 0px;
+}
+.img1{
+    height: 450px;
+    width: 380px;
+    object-fit: cover;
+    border-radius: 20px 0px 0px 20px;
+    filter: grayscale(100%);
+    filter: blur(100%);
+    transition: 1.2s;
+}
+.img1:hover{
+    filter: grayscale(0%);
+    filter: blur(0%);
+}
+.t1{
+    text-align: left;
+    font-size: 35px;
+    margin-left: 30px;
+    transition: 2s;
+}
+.t1:hover{
+    transform: scale(2,2);
+    color: red;
+}
+.t2{
+    text-align: left;
+    font-size: 18px;
+    margin-left:30px;
+}
+.t3{
+    text-align: left;
+    font-size: 40px;
+    margin-left: 30px;
+    color: darkgreen;
+    font-family: monospace;
+    padding-top: 0;
+}
+.btn{
+    background-color: darkgreen;
+    margin-left: 30px;
+    width: 370px;
+    height: 40px;
+    transition: 0.5s;
+    font-size: 25px;
+}
+.btn:hover{
+    color: white;
+    font-size: 38px;
+    background-color: green;
+}
