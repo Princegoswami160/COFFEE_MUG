@@ -73,6 +73,14 @@
     font-family: monospace;
     padding-top: 0;
 }
+.t4{
+    text-align: left;
+    font-size: 40px;
+    margin-left: 70px;
+    color: darkgreen;
+/*     font-family: monospace;  */
+    padding-top: 0;
+}
 .btn{
     background-color: darkgreen;
     margin-left: 30px;
