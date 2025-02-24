@@ -57,8 +57,7 @@
     transition: 2s;
 }
 .t1:hover{
-/*     transform: scale(2,2); */
-    font-size:30px;
+    transform: scale(2,2);
     color: red;
 }
 .t2{
