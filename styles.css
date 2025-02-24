@@ -75,13 +75,14 @@
 }
 .t4{
     text-align: left;
-/*     font-size: 40px; */
-    margin-left: 230px;
+    font-size: 20px;
+    margin-left: 200px;
     color: darkgreen;
-/*     font-family: monospace;  */
+    font-family: monospace; 
     padding-top: 0;
 }
 .btn{
+    position:fixed;
     background-color: darkgreen;
     margin-left: 30px;
     width: 370px;
